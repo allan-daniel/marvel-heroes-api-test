@@ -1,0 +1,152 @@
+body {
+	background-color: #e5e5e5;
+	margin: auto;
+}
+
+.nav-bar {	
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.bg-nav-bar {
+	background-color: #ffffff;
+}
+
+.form-search {
+	background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #455a64;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 1rem;
+    display: inline-block;
+    align-self: center;
+    width: 200px;
+    height: 30px;
+}
+
+.btn-hero img {
+	height: 20px;
+}
+
+
+.busca-heroi {
+	margin-top: 80px;
+}
+
+.busca-heroi h1, h3 {
+	color: #455a64;
+}
+
+.busca-heroi h3 {
+	font-size: 16px; 
+}
+
+
+.lista-heroi {
+	margin-top: 80px;
+}
+
+.apresentacao {
+	color: #455a64;
+	justify-content: space-between;
+	display: flex;
+	margin-left: 20px;
+	width: 90%;
+
+}
+
+.container {
+    width: 80%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.@media (min-width: 1200px) {
+	.container {
+    max-width: 1140px;
+	}
+}	
+
+.@media (min-width: 992px){
+	.container {
+		max-width: 960px;
+	}	
+}
+
+.@media (min-width: 768px){
+	.container {
+		max-width: 720px;
+	}	
+}
+
+.@media (min-width: 576px){
+	.container {
+		max-width: 540px;
+	}	
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-size {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+
+.item-hero {
+	background-color: #ffffff;
+	display: flex;
+	width: 100%;
+	height: 80px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.item-hero:hover {
+	border: 1px solid #455a64;
+}
+
+.item-hero a {
+	align-self: center;
+	margin-left: 20px;
+}
+
+.item-hero p {
+	align-self: center;
+	margin-left: 10px;
+	color: #455a64;
+}
+
+img.img-thumbnail {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
